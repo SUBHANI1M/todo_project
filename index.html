@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ToDo</h1>
+        <h3>make a perfect time table</h3>
+        <div class="createEle" id="createEle">
+            <button>Create</button>
+        </div>
+    </header>
+    <section id="taskForm">
+        <form id="submitFormBtn" action="none">
+
+            <label for="task">Task Description : </label>
+            <input type="text" id="taskDescription" required> <br> <br>
+
+
+            <label for="task">Task Date : </label>
+            <input type="date" id="dates" required> <br> <br>
+
+
+            <label for="task">Task Time : </label>
+            <input type="time" placeholder="start/End- Date" id="times" required> <br> <br>
+
+
+            <label for="task">Task Status(0-100 %) : </label>
+            <input type="range" id="taskStatus" required> <br> <br>
+
+
+            <button type="submit" id="submit" class="submitButton">createTask</button>
+
+        </form>
+    </section>
+
+
+    <table id="taskTable">
+        <thead>
+            <tr>
+                <!-- <th>No.</th> -->
+                <th>Description</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Status</th>
+                <th>
+                    Pending
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <script src="javascript.js"></script>
+</body>
+
+</html>

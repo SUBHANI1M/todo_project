@@ -1,0 +1,63 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #b8b3b3;
+}
+
+#createEle > button {
+  margin: 5px;
+  cursor: pointer;
+}
+
+#taskForm {
+  width: 30%;
+  margin: auto;
+  height: auto;
+  background-color: #444343;
+  display: none;
+}
+
+form {
+  width: 80%;
+  font-weight: bolder;
+  color: #fff;
+  text-align-last: center;
+}
+
+input {
+  width: 50%;
+  margin: 10px 0;
+  vertical-align: auto;
+}
+
+#submit {
+  width: 40%;
+  margin: 15px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
